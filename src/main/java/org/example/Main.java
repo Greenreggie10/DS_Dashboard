@@ -35,7 +35,7 @@ public class Main {
         switch(choice) {
             case 1: System.out.println("Driver is Sleeping...zzz!");
                 break;
-            case 2: System.out.println("Drivers is driving enroute!");
+            case 2: System.out.println("Driver is driving enroute!");
                 break;
             case 3: System.out.println("Driver is occupying restroom!");
                 break;
@@ -46,9 +46,8 @@ public class Main {
         sc.close();
 
         System.out.println("------------------------------------------------");
-        System.out.println("----------------Employee's Status-----------------");
+        System.out.println("----------------Employee's Destination-----------------");
         System.out.println("-----------------------------------------------\n");
-
 
 
 
@@ -60,5 +59,14 @@ public class Main {
             System.out.println(name);
         }
 
+        System.out.println("------------------------------------------------");
+        System.out.println("----------------Employee's Package-----------------");
+        System.out.println("-----------------------------------------------\n");
+
+        System.out.println("------------------------------------------------");
+        System.out.println("----------------Employee's Final Route-----------------");
+        System.out.println("-----------------------------------------------\n");
+
+        Route driverChoice = new Route("","",choice);
     }
 }

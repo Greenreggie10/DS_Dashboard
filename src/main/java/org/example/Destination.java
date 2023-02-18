@@ -73,7 +73,7 @@ public class Destination {
         // if 'answers' is smaller than 'states' we haven't guess all 50 states yet
         while (answers.size() < 3) {
             // Ask the user to enter a state
-            System.out.println("Please enter State you would like to deliver to:");
+            System.out.println("Please enter State you would like to deliver to next:");
 
             // change input to make it case-insensitive
             String input = "";
